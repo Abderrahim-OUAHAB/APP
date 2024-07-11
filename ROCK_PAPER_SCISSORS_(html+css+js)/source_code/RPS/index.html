@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="icon" href="iv.png" type="image/x-icon">
+</head>
+<body>
+    <div id="flowerContainer"></div>
+
+ <div style="margin:0 auto;display:block;width:500px;">
+
+<div id="choices">
+    <h1>Rock 🪨 Paper 📃 Scissors ✂️</h1>
+    <button class="btn" onclick="playGame('rock')">👊🏻</button>
+    <button class="btn" onclick="playGame('paper')">🖐🏻</button>
+    <button class="btn" onclick="playGame('scissors')">✌🏻</button>
+
+</div>
+<div style="width: 500px;text-align:center">
+
+    <div style="display:inline-block">
+        <div style="color:aliceblue;font-weight:bolder;">PLAYER</div>
+        <div id="playerDisplay"></div>
+</div>
+<div id="VS">VS</div>
+<div style="display:inline-block">
+    <div style="color:aliceblue;font-weight:bolder;">COMPUTER</div>
+    <div id="computerDisplay"> </div>
+</div>
+
+
+
+</div>
+<div id="sp">0</div>
+<div id="sc">0</div>
+<div id="resDisplay"></div>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
