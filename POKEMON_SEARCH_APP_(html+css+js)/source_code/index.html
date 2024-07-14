@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="y.png" type="image/x-icon">
+</head>
+<body>
+ 
+    <div id="cont">
+        <input type="text" id="search-input" placeholder="Enter name or id" required>
+        <button id="search-button" onclick="fetchData()">Fetch pokemon</button><br>
+        <div id="skill">
+        <p id="pokemon-name" style="display: none;"></p>
+        <p id="pokemon-id" style="display: none;"></p>
+        <p id="weight" style="display: none;"></p>
+        <p id="height" style="display: none;"></p>
+        
+        <img src="" alt="pokemon" id="sprite" style="display: none;">
+        
+        <p id="types" style="display: none;"></div>
+        </p>
+        <table id="data">
+         <tr> 
+        <th>Base</th>
+        <th>Stats</th>
+        </tr>
+        
+        <tr> 
+        <td >HP:</td>
+        <td id="hp" ></td>
+        </tr>
+        
+        <tr> 
+        <td >Attack:</td>
+        <td id="attack" ></td>
+        </tr>
+        
+        <tr> 
+        <td >Defense:</td>
+        <td id="defense" ></td>
+        </tr>
+        
+        <tr> 
+        <td >Sp. Attack:</td>
+        <td id="special-attack" ></td>
+        </tr>
+        
+        <tr> 
+        <td >Sp. Defense:</td>
+        <td id="special-defense" ></td>
+        </tr>
+        
+        <tr> 
+        <td >Speed:</td>
+        <td id="speed" ></td>
+        </tr>
+        
+        </table>
+        </div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
