@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Character Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="z.png" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="search-input" placeholder="Enter character name or ID" required>
+        <button id="search-button" onclick="fetchData()">Fetch Character</button>
+        <div id="character-card">
+            <p id="character-name"></p>
+            <p id="character-name_kanji"></p>
+            <p id="character-id"></p>
+            <img src="" alt="Character Image" id="character-image">
+            <div id="des">
+            <p id="character-description"></p></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1c1c1c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-image: url("bb.png");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for search input and results */
+#container {
+    background:  linear-gradient(180deg,#151935  ,gray);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    width: 750px;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for the search input */
+input[type="text"] {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background: #3c3c3c;
+    color: #ffffff;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #f39c12;
+    outline: none;
+}
+
+/* Styling for the search button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background: #e67e22;
+}
+
+/* Card styling */
+#character-card {
+    background: linear-gradient(360deg,#f39c12  ,#2c2c2c);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: 0px 20px  4px 10px rgba(0, 0, 0, 0.4);
+    display: none;
+    text-align: left;
+    width: 730px;
+   
+}
+
+#character-card.visible {
+    display: block;
+}
+
+/* Image styling */
+#character-image {
+    width: 200px;
+    height:300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 35%;
+    box-shadow: 0px 20px 20px 20px black;
+}
+
+/* Text styling */
+#character-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 260px;
+}
+#character-name_kanji{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 260px;
+}
+#character-id {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 185px;
+}
+
+#character-description {
+    font-size: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    font-weight: bolder;
+ 
+}
+
+#des{
+    width: 98%;
+    background: linear-gradient(360deg,rgb(56, 56, 159)  ,#2c2c2c); 
+    border-radius: 10px;
+    margin-bottom: 15px;
+   padding-left: 10px;
+    box-shadow: 0px 20px 20px 20px black; 
+}
